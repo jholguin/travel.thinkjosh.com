@@ -1,0 +1,19 @@
+{
+  "name": "travel.thinkjosh.com",
+  "version": "0.0.0",
+  "authors": [
+    "Josh Holguin <josh.holguin@gmail.com>"
+  ],
+  "description": "European Vacation tracker",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "handlebars": "~1.3.0"
+  }
+}
