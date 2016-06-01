@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+html, body {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: url(../images/france.jpg) fixed no-repeat top center;
+  background-size: cover;
+  font-family: 'Quicksand', sans-serif; }
+  body h1, body h2, body h3 {
+    font-family: 'Amatic SC', cursive; }
+
+header h1 {
+  color: #fff;
+  font-size: 2.5rem; }
+  header h1:before {
+    content: '';
+    background-image: url(../images/plane.svg);
+    display: inline-block; }

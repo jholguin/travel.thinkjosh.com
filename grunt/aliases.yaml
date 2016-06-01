@@ -1,0 +1,10 @@
+build-css:
+- 'sass:dist'
+- 'autoprefixer:dev'
+
+build:
+- 'build-css'
+- 'watch'
+
+default:
+- 'build'

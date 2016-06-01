@@ -1,0 +1,14 @@
+apache:
+  image: bitnami/apache
+  volumes:
+    - ./app:/app
+  environment:
+    VIRTUAL_HOST: travel.dev
+nginx:
+  image: jwilder/nginx-proxy
+  ports:
+    - 80:80
+  volumes:
+    - /var/run/docker.sock:/tmp/docker.sock:ro
+  links:
+    - apache

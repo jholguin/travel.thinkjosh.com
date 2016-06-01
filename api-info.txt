@@ -1,4 +1,0 @@
-//api key
-//c8fad9bc55323d7fdd2adcff97cd6d6b
-//api secert
-//d19e47f7d67eae89
